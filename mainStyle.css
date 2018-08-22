@@ -1,0 +1,123 @@
+html{
+    width:100%;
+    min-width: 400px;
+    height:100%;
+    min-height: 400px;
+}
+
+body{
+    width:100%;
+    min-width: 400px;
+    height:100%;
+    min-height: 400px;
+    margin:auto;
+    font-family: Calibri;
+    color:white;
+    background-color:#403169;
+    font-size:20px;
+}
+
+.headerLoader{
+    width:100%;
+    min-height: 20px;
+    background-color:#3B206B;
+    text-align: center;
+}
+
+.singleHeader{
+    padding:15px;
+    display: inline-block;
+    
+    -webkit-transition:background-color 0.2s, color 0.2s;
+    transition:background-color 0.2s, color 0.2s;
+    cursor:pointer;
+}
+
+.singleHeader:hover{
+    background-color:#2F1957;
+}
+
+input[type='text'], input[type='password']{
+    border-radius:5px;
+    color:#371477;
+    border:1px ridge grey;
+    font-size:21px;
+    -webkit-transition:background-color 0.2s, color 0.2s;
+    transition:background-color 0.2s, color 0.2s;
+}
+input[type='text']:focus, input[type='password']:focus{
+    background-color:#D7D1E3;
+}
+
+input[type='submit'], input[type='button']{
+    border-radius:10px;
+    color:#371477;
+    border:1px ridge grey;
+    font-size:21px;
+    padding:7px 12px;
+    -webkit-transition:background-color 0.2s, color 0.2s;
+    transition:background-color 0.2s, color 0.2s;
+    cursor:pointer;
+}
+input[type='submit']:hover, input[type='button']:hover{
+    color:white;
+    background-color:#19073B;
+    border:1px ridge #19073B;
+    font-size:21px;
+    padding:7px 12px;
+}
+
+.easyHolder{
+    background-color:#3B206B;
+    border-radius:10px;
+    padding:40px;
+    -webkit-transition:background-color 0.2s, color 0.2s;
+    transition:background-color 0.2s, color 0.2s;
+}
+
+.easyHolder:hover{
+    background-color:#2F1957;
+}
+
+.contentLoader{
+    background-color:#403169;
+}
+
+.simpleTable{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.simpleTable th, td{
+    vertical-align: top;
+}
+.simpleTable td:hover{
+    background-color:#584e6b;
+    cursor:pointer;
+}
+
+.simpleLoader{
+    max-height:600px;
+    padding:20px;
+    background-color:#584e6b;
+    -webkit-transition:background-color 0.2s, color 0.2s;
+    transition:background-color 0.2s, color 0.2s;
+}
+.simpleLoader:hover{
+    background-color:#2F1957;
+}
+
+.selectedRow{
+    background-color:black;
+}
+
+
+
+#logHolder{
+    margin:auto;
+    width:320px;
+    height:100px;
+    position: absolute;
+    top:25%;
+    left:40%;
+}
